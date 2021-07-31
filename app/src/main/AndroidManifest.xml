@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prototype1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Prototype1">
+        <activity android:name=".MarathiTeacher_Select"></activity>
+        <activity android:name=".HindiTeacher_Select" />
+        <activity android:name=".EnglishTeacher_Select" />
+        <activity android:name=".MarathiStudent_Select" />
+        <activity android:name=".HindiStudent_Select" />
+        <activity android:name=".EnglishStudent_Select" />
+        <activity android:name=".MararthiTeacher_Dashboard" />
+        <activity android:name=".HindiTeacher_Dasboard" />
+        <activity android:name=".EnglishTeacher_Dashboard" />
+        <activity android:name=".MarathiStudent_Dashboard" />
+        <activity android:name=".HindiStudent_Dashboard" />
+        <activity android:name=".EnglishStudent_Dashboard" />
+        <activity android:name=".MarathiTeacher_Login" />
+        <activity android:name=".HindiTeacher_Login" />
+        <activity android:name=".EnglishTeacher_Login" />
+        <activity android:name=".EnglishPortal" />
+        <activity android:name=".HindiPortal" />
+        <activity android:name=".MarathiPortal" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
